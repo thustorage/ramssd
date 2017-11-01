@@ -1,0 +1,39 @@
+Copyright 2011-2017 Storage Research Group @ Tsinghua University
+
+
+RAMSSD: Open-Channel SSD Simulator 
+
+-- emulate open-channel SSDs in memory
+
+
+RAMSSD is used for system evaluatation on Raw Flash Devices (a.k.a., Open-Channel SSDs).
+The simulator is implemented based on FlashSim (Brendan Tauras from PSU).
+Major ifferences between FlashSim and RAMSSD are:
+(1) support open-channel SSD operations, and
+(2) emulate the storage to keep the data in the memory (data contents are kept).
+It has been used for the evaluation or the early evaluation (before using the real device) for our
+research:
+
+(1) Youyou Lu, Jiwu Shu, Weimin Zheng. "Extending the Lifetime of Flash-based Storage through Reducing Write Amplification from File Systems",in Proceedings of the 11th USENIX Conference on File and Storage Technologies (FAST'13), February 12-15, 2013, San Jose, USA 
+
+(This is the first work to propose the Open-Channel SSD for re-architecting flash storage systems.)
+
+(2) Wei Wang, Youyou Lu, Jiwu Shu. "p-OFTL: An Object-based Semantic-aware Parallel Flash Translation Layer", in Proceedings of Design, Automation and Test in Europe (DATE'14), March 24-28, 2014, Dresden, Germany 
+
+(3) Youyou Lu, Jiwu Shu, Wei Wang. "ReconFS: A Reconstructable File System on Flash Storage"
+, in Proceedings of the 12th USENIX Conference on File and Storage Technologies (FAST'14), February 17-20, 2014, Santa Clara, USA 
+
+(4) Jiacheng Zhang, Jiwu Shu, Youyou Lu. "ParaFS: A Log-Structured File System to Exploit the Internal Parallelism of Flash Devices", in Proceedings of the USENIX Annual Technical Conference (USENIX ATC'16), June 22-24, 2016, Denver, CO
+
+
+This simulator is part of our work Software Managed Flash (http://storage.cs.tsinghua.edu.cn/~lu/research/smf.html).
+
+
+
+Contact:
+Wei Wang
+Jiacheng Zhang
+Fei Li (current contact)
+Youyou Lu
+
+
